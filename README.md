@@ -43,7 +43,6 @@ target_file = 'targets_to_sch.csv'
         data = pandas.read_csv(target_file, names=col_names)
 
         # Store entries in list for variables
-            x = 1
             unit = data.unit.tolist()
             start = data.start.tolist()
             target_site = data.target_site.tolist()
